@@ -1,0 +1,4 @@
+var images = $$('img', document.querySelector('.devsite-header-background'));
+   for (each in images) {
+       console.log(images[each].src);
+   }
